@@ -1,0 +1,11 @@
+100cars
+
+controlled: default coverage using shortest path. random start and random end
+
+
+budget at 4 corners with mean of 10 and std of 10
+capacity for every car with mean of 50 and std of 5
+
+increase capacity mean by 10 all the way to 100 see how coverage change. keep budget and std for capcity the same
+
+increase budget mean by 10 all the way to 100 see how coverage change. keep capacity and std for budget the same.
