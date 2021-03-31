@@ -1,4 +1,4 @@
-### ANTE-Mobility: Approximated Trajectory Nash Equilibrium
+# ANTE-Mobility: Approximated Trajectory Nash Equilibrium #
 
 This is an implementation of [ATNE] on Python 3, Networkx, and Traci. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
@@ -9,12 +9,12 @@ The repository includes:
 * Open street map to SUMO Conversion
 * Street Discretization
 
-# SUMO + Traci #
-The project is implemented using the traffic simulator [SUMO](https://www.eclipse.org/sumo/), which meets our qualifications for an ideal traffic simulator. The perks of SUMO include, all of the tools necessary to build a road map model from scratch using SUMO's NETEDIT tool or import a real-life road map model from OpenStreetMaps (OSM) \cite{OpenStreetMap2020}. Furthermore, SUMO may be interfaced using Python 3.0 and TraCI \cite{Wegener2008} which allows for management of the traffic simulation at an atomic level. In addition, the Python 3.0 interface of SUMO and TraCI allows for the use of custom Python 3.0 modules that extend the functionality of SUMO.
+## SUMO + Traci 
+The project is implemented using the traffic simulator [SUMO](https://www.eclipse.org/sumo/), which meets our qualifications for an ideal traffic simulator. The perks of SUMO include, all of the tools necessary to build a road map model from scratch using SUMO's NETEDIT tool or import a real-life road map model from [OpenStreetMaps (OSM)](https://www.openstreetmap.org/#map=5/38.007/-95.844). Furthermore, SUMO may be interfaced using Python 3.0 and [TraCI](https://sumo.dlr.de/docs/TraCI/Interfacing_TraCI_from_Python.html) which allows for management of the traffic simulation at an atomic level. In addition, the Python 3.0 interface of SUMO and TraCI allows for the use of custom Python 3.0 modules that extend the functionality of SUMO.
 
 ---
 
-## <a name="sumo_essentials"></a>SUMO Essentials
+### <a name="sumo_essentials"></a>SUMO Essentials
 [Top](#top_of_page) , [Essential Files](#sumo_essentials.essential_files) , [Tools](#sumo_essentials.tools)
 
 <!-- Begin Essential Files -->
