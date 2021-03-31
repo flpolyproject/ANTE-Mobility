@@ -1,7 +1,6 @@
 # ANTE-Mobility: Approximated Trajectory Nash Equilibrium #
 
-This is an implementation of [ATNE] on Python 3, Networkx, and Traci. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
-
+This is an implementation of ATNE on Python 3, Networkx, and Traci. The system generates vehicle trajectories based on a set of computed nash equilibrium values. The vehicles acts as individual players in a non-cooperative game to come up with the optimal Strategy for all players in the system.
 ![road coverage sample](images/map1.png)
 
 The repository includes:
