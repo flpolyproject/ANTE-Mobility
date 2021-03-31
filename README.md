@@ -15,11 +15,10 @@ pip install dependencies
 
 ```
 pip install -r requirements.txt
-
 ```
 ## Coverage Analysis
 
-![road coverage comparison](images/ru.eps)
+![road coverage comparison](images/ru.png)
 
 
 
