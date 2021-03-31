@@ -7,9 +7,9 @@ class Settings(object):
 
 	#reward list didnt reset after 
 	TEST=True
-	base_default = os.path.abspath('./../')
+	base_default = os.path.abspath('./')
 
-	default = os.path.abspath('./../maps') #default is E:\Python\sumo-windows10\projects
+	default = os.path.abspath('./maps') #default is E:\Python\sumo-windows10\projects
 	#sumo_config = os.path.join(default, "grid4/data/grid4.sumocfg")
 
 	#sumo_config = os.path.join(default, "london-seg4/data/london-seg4.sumocfg")
@@ -130,7 +130,7 @@ class GraphSetting(Settings):
 		self.player_capacity_random = (40, 5)
 		self.buffer_interval = 30 #50 #every few simulation steps checks for stopped vehicles at the poi radius that needs to be assigned 
 		self.poi_radius = 30 #50
-		self.gia_radius = RADIUS
+		self.gia_radius = 20
 
 		self.max_memory_size = 2
 

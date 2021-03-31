@@ -25,8 +25,10 @@ import copy
 
 from math import exp
 import sys
-
-sys.path.append("./../poibin-master")
+import os
+#sys.path.append("./../poibin-master")
+#print(os.getcwd())
+sys.path.append("./poibin-master")
 
 from poibin import PoiBin
 

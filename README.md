@@ -16,6 +16,13 @@ pip install dependencies
 ```
 pip install -r requirements.txt
 ```
+
+start sample simulation
+```
+python main.py
+```
+
+
 ## Coverage Analysis
 
 ![road coverage comparison](images/ru.png)
