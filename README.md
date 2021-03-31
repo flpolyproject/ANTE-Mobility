@@ -22,11 +22,6 @@ start sample simulation
 python main.py
 ```
 
-
-## Coverage Analysis
-
-![road coverage comparison](images/ru.png)
-
 ## Experiement Design
 
 ![Experiment Design](images/osmtomap.png)
