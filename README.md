@@ -1,12 +1,28 @@
 # ANTE-Mobility: Approximated Trajectory Nash Equilibrium #
 
-This is an implementation of ATNE on Python 3, Networkx, and Traci. The system generates vehicle trajectories based on a set of computed nash equilibrium values. The vehicles acts as individual players in a non-cooperative game to come up with the optimal Strategy for all players in the system.
+This is an implementation of ATNE on Python 3, Networkx, and Traci. The system generates vehicle trajectories based on a set of computed nash equilibrium values. The vehicles acts as individual players in a non-cooperative game to derive the optimal strategy for all players in the system.
 ![road coverage sample](images/map1.png)
 
 The repository includes:
 * Approximated Trajectory Nash Equilibrium
 * Open street map to SUMO Conversion
 * Street Discretization
+
+## Getting Started
+Download SUMO from [HERE](https://sumo.dlr.de/docs/Downloads.php) and set up system environment variable.
+
+pip install dependencies
+
+```
+pip install -r requirements.txt
+
+```
+## Coverage Analysis
+
+![road coverage comparison](images/ru.eps)
+
+
+
 
 ## SUMO + Traci 
 The project is implemented using the traffic simulator [SUMO](https://www.eclipse.org/sumo/), which meets our qualifications for an ideal traffic simulator. The perks of SUMO include, all of the tools necessary to build a road map model from scratch using SUMO's NETEDIT tool or import a real-life road map model from [OpenStreetMaps (OSM)](https://www.openstreetmap.org/#map=5/38.007/-95.844). Furthermore, SUMO may be interfaced using Python 3.0 and [TraCI](https://sumo.dlr.de/docs/TraCI/Interfacing_TraCI_from_Python.html) which allows for management of the traffic simulation at an atomic level. In addition, the Python 3.0 interface of SUMO and TraCI allows for the use of custom Python 3.0 modules that extend the functionality of SUMO.
