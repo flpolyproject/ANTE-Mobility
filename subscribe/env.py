@@ -28,7 +28,7 @@ import sys
 import os
 #sys.path.append("./../poibin-master")
 #print(os.getcwd())
-sys.path.append("./poibin-master")
+sys.path.append("../poibin-master")
 
 from poibin import PoiBin
 
